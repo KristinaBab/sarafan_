@@ -1,0 +1,167 @@
+
+.select{
+    appearance: none;
+    border:  1px solid #CECECE;
+    background-color: #FFF;
+    padding: 19px 129px 19px 90px;
+    outline: none;
+    cursor: pointer;
+    background-image: url(../img/ep_arrow-left\ \(2\).png) ;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 15px) center;
+}
+
+.card{
+    padding-top: 30px;
+    display: flex;
+}
+
+.card-slider{
+width:670px ;
+margin-right: 77px;
+display: flex;
+
+
+}
+
+  
+.card-info{
+width: calc(100% - 670px - 77px);
+}
+.slider {
+    position: relative;
+    overflow: hidden;
+  }
+.slider-nav{
+width: 70px;
+height: 89px;
+margin-right: 10px;
+}
+
+.slider-block{
+overflow: hidden;
+width: calc(100% - 70px - 10px);
+position: relative;
+}
+
+.slider-block.fa-heart {
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	top: 12px;
+	left: 600px;
+  }
+    .slider-nav__item{
+        height: 70px;
+        width: 100%;
+        background-color: #fff;
+        display: flex;
+        align-items:center ;
+        justify-content: center;
+        cursor: pointer;
+    }
+.slider-nav__item img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.slider-nav__item:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.swiper-slide{
+    width: 590px;
+    height: 762px;
+    overflow: hidden;
+}
+.swiper-slide img{
+    width: 590px;
+    height: 762px;
+    flex-shrink: 0;
+   
+}
+
+
+
+
+.vendor{
+color: #DADADA;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 113.9%; /* 15.946px */
+
+}
+
+.title{
+color: #2D2D2D;
+font-size: 25px;
+font-style: normal;
+line-height: 113.9%; /* 28.475px */
+letter-spacing: 0.75px;
+}
+.price{
+margin: 26px 0 20px 0;
+}
+.price__current{
+font-size: 18px;
+font-weight: 400;
+line-height: 113.9%; /* 20.502px */
+}
+.description{
+color: #2D2D2D;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+margin-bottom: 40px;
+}
+.name-color{
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 113.9%; /* 15.946px */
+margin-bottom: 10px;
+}
+
+
+.color{
+display: inline;
+width: 39px;
+height: 55px;
+flex-shrink: 0;
+margin-bottom: 20px;
+}
+.color-beige{
+background: #CEB9AD;
+}
+.color-red{
+background: #C21414;
+
+}
+.color-black{
+background: #2D2D2D;
+}
+
+.color:hover{
+border: 1.5px solid #2D2D2D;
+}
+
+.delivery__exchange__refund{
+margin-bottom: 55px;
+}
+.der{
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 113.9%; /* 15.946px */
+}
+.default{
+font-size: 16px;
+
+line-height: 113.9%; /* 18.224px */
+}
+
+
+

@@ -1,0 +1,117 @@
+@import 'simplebar.css';
+
+.cart-content{
+cursor: default;
+margin-left: 30px ;
+}
+.cart-mycart{
+    margin-bottom:40px ;
+    color: #2D2D2D;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 113.9%; /* 28.475px */
+
+}
+.cart-content__item{
+    padding-top: 50px;
+}
+.cart{
+    position: relative;
+}
+.cart.active:hover{
+    cursor: pointer;
+}
+
+
+.cart-product__img{
+    width: 140px;
+    height: 205px;
+    background-color: #ebebeb80;
+    background-size: 100% 100%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.cart-product__title{
+    font-size: 16px;
+    line-height: 113.9%; /* 18.224px */
+    padding-bottom: 6px;
+}
+.cart-product__price{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 113.9%; /* 18.224px */
+}
+
+.cart-content__list{ 
+    max-height: 467px;
+}
+
+.cart-product{
+    display: flex;
+   
+}
+.cart__size{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+    
+}
+.cart-product__size{
+    font-size: 15px;
+    line-height: 113.9%; /* 17.085px */
+}
+.box__cart{
+    border: 1px solid #E5E5E5;
+    background: #FFF;
+    width: 59px;
+    height: 32px;
+	text-align: center;
+  }
+ .cart-product__color{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+    
+ }
+ .cart-product__color__color{
+    font-size: 15px;
+    line-height: 113.9%; /* 17.085px */
+ }
+ .cart-product__color__name{
+    font-size: 15px;
+    line-height: 113.9%; /* 17.085px */
+ }
+ .cart-product__delete{
+    display: flex;
+    justify-content: flex-start;
+ }
+
+ .cart-product__delete__text{
+    color: hwb(0 44% 56%);
+    font-size: 14px;
+    border-bottom: 1px solid hwb(0 44% 56%);
+ }
+ .cart-content__bottom{
+    padding-top: 20px;
+    display: block;
+ }
+ .cart-content__fullprice{
+    font-size: 18px;
+    line-height: 113.9%; /* 20.502px */
+    margin-bottom: 20px;
+ }
+ .cart-content__btn {
+    cursor: pointer;
+    width: 370px;
+    height: 56px;
+    background-color: #fff;
+    border: 1px solid #CECECE;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 113.9%; /* 18.224px */
+    letter-spacing: 0.48px;
+    margin-bottom: 50px;
+
+ }
